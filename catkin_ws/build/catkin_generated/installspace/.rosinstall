@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/emre/catkin_ws/install/setup.sh
