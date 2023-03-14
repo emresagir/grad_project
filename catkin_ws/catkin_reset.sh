@@ -7,11 +7,11 @@ y='y'
 echo $choice
 echo $y
 if [ $choice = $y ]; then
-	rm -rf /home/$USER/catkin_ws/src/
-	rm -rf /home/$USER/catkin_ws/build/
-	rm -rf /home/$USER/catkin_ws/devel/
-	mkdir -p /home/$USER/catkin_ws/src/
-	cd /home/$USER/catkin_ws/
+	rm -rf /home/$USER/grad_project/catkin_ws/src/
+	rm -rf /home/$USER/grad_project/catkin_ws/build/
+	rm -rf /home/$USER/grad_project/catkin_ws/devel/
+	mkdir -p /home/$USER/grad_project/catkin_ws/src/
+	cd /home/$USER/grad_project/catkin_ws/
 	catkin_make
 
 else
