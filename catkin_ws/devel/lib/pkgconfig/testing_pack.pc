@@ -1,0 +1,8 @@
+prefix=/home/emre/grad_project/catkin_ws/devel
+
+Name: testing_pack
+Description: Description of testing_pack
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
