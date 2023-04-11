@@ -304,7 +304,7 @@ class FaceRecognition:
         #cv2.imshow('rect_process', frame1)
 
         rospy.loginfo("*************************************")
-        rospy.Subscriber('video_frames', Image, callback)
+        #rospy.Subscriber('video_frames', Image, callback)
         
         
         
