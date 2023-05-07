@@ -51,7 +51,7 @@ void scanCallback(const sensor_msgs::LaserScan::ConstPtr& scan)
         //ROS_INFO(": [%f, %f]", degree, scan->ranges[i]);
         if (degree > 105 && degree < 110){ // sol arkasında kalmalı duvar, ondan dolayı 85,95 aralığı olmuyor.
             if (scan->ranges[i] > 0.3){
-                ROS_INFO(" SOLA DÖNÜŞ YAP!");
+                ROS_INFO(" SOLA DONUS YAP!");
             }            
         }
 
