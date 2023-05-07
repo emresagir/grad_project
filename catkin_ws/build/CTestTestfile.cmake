@@ -7,4 +7,5 @@
 subdirs("gtest")
 subdirs("testing_pack")
 subdirs("cv_basics")
+subdirs("movement")
 subdirs("rplidar_ros")

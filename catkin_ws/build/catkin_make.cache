@@ -1,2 +1,2 @@
-cv_basics:rplidar_ros:testing_pack
+cv_basics:movement:rplidar_ros:testing_pack
 -DCATKIN_DEVEL_PREFIX=/home/emre/grad_project/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/emre/grad_project/catkin_ws/install -G Unix Makefiles
