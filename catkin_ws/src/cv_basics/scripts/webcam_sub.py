@@ -26,7 +26,7 @@ def callback(data):
   # Display image
   cv2.imshow("camera", current_frame)
    
-  #cv2.waitKey(1)
+  cv2.waitKey(1)
       
 def receive_message():
  
@@ -40,7 +40,7 @@ def receive_message():
  
   # spin() simply keeps python from exiting until this node is stopped
   rospy.spin()
-  cv2.waitKey(1)
+ 
   # Close down the video stream when done
   cv2.destroyAllWindows()
   
